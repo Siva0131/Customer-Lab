@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import Schema from "./Components/schema";
+// import Sample from "./Components/sample";
+import SamplePage from "./Components/SamplePage";
+
+import "./ui-styles/ui-designs.css";
+// import 'react-dropdown/style.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     {/* <Schema></Schema> */}
+     {/* <Sample></Sample> */}
+     <SamplePage></SamplePage>
     </div>
   );
 }

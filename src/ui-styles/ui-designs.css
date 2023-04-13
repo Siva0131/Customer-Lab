@@ -1,0 +1,93 @@
+.segment{
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+}
+
+.greenIcon{
+    color: green;
+}
+
+.redIcon{
+    color: red;
+}
+
+.greyIcon{
+    color: gray;
+}
+
+.Dropdown{
+    width: 275px;
+    margin-left: 25px;
+    /* margin-top: 100px; */
+}
+
+.dropIcon{
+    margin-top: 10px;
+}
+
+.footerbutton{
+    margin-top:  100px; ;
+}
+
+.ButtonLink{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.SaveButton{
+    margin-top: 200px ;
+    background-color: rgb(60, 137, 107);
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.CancelButton{
+    margin-left: 10px;
+    background-color: rgb(232, 238, 236);
+    color: red;
+    border-radius: 5px;
+    height: 25px;
+    border-color: rgb(209, 196, 196);
+}
+
+.Icons{
+    /* margin-left: 200px; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+.Icons span:last-child{
+    margin-left: 15px;
+}
+
+.AddSchema{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 275px;
+    height: 38px;
+}
+
+.AccountNumberDropdown{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 275px;
+    height: 38px;
+}
+
+.FirstNameDropDown{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 275px;
+    height: 38px;
+}
+
+.SaveSegmentButton{
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 200px;
+}
